@@ -29,8 +29,8 @@ password.grid(row=2, column=2)
 uservalue = StringVar()
 passvalue = StringVar()
 
-userentry = Entry(root, textvariable=uservalue)
-passentry = Entry(root, textvariable=passvalue)
+userentry = Entry(root, textvariable=uservalue, font="cascadia 14 bold")
+passentry = Entry(root, textvariable=passvalue, font="cascadia 14 bold")
 
 # packing user entry in grid
 userentry.grid(row=1, column=3)
